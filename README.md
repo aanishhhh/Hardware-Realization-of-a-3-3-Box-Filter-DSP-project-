@@ -1,6 +1,6 @@
-# 📊 3×3 Box Filter (Moving Average Filter) – DSP & VLSI Implementation
+#  3×3 Box Filter (Moving Average Filter) – DSP & VLSI Implementation
 
-## 📌 Overview
+##  Overview
 
 This project implements a 3×3 moving average (box) filter for image processing applications. The design is explored across both software and hardware domains.
 
@@ -11,7 +11,7 @@ This project implements a 3×3 moving average (box) filter for image processing 
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 * Digital Signal Processing (DSP)
 * Image Filtering (Spatial Domain)
@@ -21,14 +21,14 @@ This project implements a 3×3 moving average (box) filter for image processing 
 
 ---
 
-## 🖥️ Software Implementation
+##  Software Implementation
 
 The filter is implemented using Python with NumPy and OpenCV.
 It applies a 3×3 averaging kernel to smooth images.
 
 ---
 
-## ⚙️ Hardware Implementation
+##  Hardware Implementation
 
 The design is implemented in Verilog HDL:
 
@@ -38,14 +38,14 @@ The design is implemented in Verilog HDL:
 
 ---
 
-## 📊 Results
+##  Results
 
 | ![](results/original_vs_filtered.png) |
 
 
 ---
 
-## 📈 Performance Insights
+##  Performance Insights
 
 * Pipelining improves throughput (1 output/cycle)
 * Folding reduces hardware usage (single adder reuse)
@@ -53,7 +53,7 @@ The design is implemented in Verilog HDL:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 python/     → Python simulation  
@@ -64,7 +64,7 @@ report/     → IEEE paper
 
 ---
 
-## 📚 References
+##  References
 
 * K. K. Parhi, *VLSI DSP Systems*
 * Gonzalez, *Digital Image Processing*
@@ -72,10 +72,9 @@ report/     → IEEE paper
 
 ---
 
-## 👨‍💻 Authors
+##  Author
 
-* Sharvil Pingale
-* Advait Rao
+ 
 * Anish Shende
 
 ---
